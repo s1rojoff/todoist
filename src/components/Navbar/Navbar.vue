@@ -14,7 +14,7 @@ export default {
     nav{
         display: flex;
         align-items: center;
-        padding: 0 100px;
+        padding: 0 120px;
         justify-content: space-between;
     }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <button :class="color" class="btn">
+  <button :style="`background:${color}; color:${text}`" class="btn">
     <slot>
         Start for free
     </slot>
@@ -9,7 +9,10 @@
 <script>
 export default {
     name:'NavBtn',
-    props:['color']
+    props:{
+      color: String,
+      text: String
+    }
 }
 </script>
 
@@ -18,7 +21,7 @@ export default {
     border: none;
     outline: none;
     padding: 12px 15px;
-    font-size: 16px;
+    font-size: 17px;
     border-radius: 10px;
     margin-right: 10px;
  }
