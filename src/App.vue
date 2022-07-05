@@ -1,4 +1,30 @@
 <template>
+<<<<<<< HEAD
+  
+   
+    
+
+     
+
+      
+
+    <v-main>
+      <router-view/>
+    </v-main>
+  
+</template>
+
+<script>
+
+export default {
+  name: 'App',
+
+  data: () => ({
+    //
+  }),
+};
+</script>
+=======
   <div id="app">
     <Navbar>
       <NavLogo/>
@@ -57,3 +83,4 @@ export default {
     background: #F0F0F0;
   }
 </style>
+>>>>>>> 0d23b495e802cee27fdeec04b7236af4c6366fde
