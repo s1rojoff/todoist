@@ -1,32 +1,35 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <Navbar>
+      <NavLogo/>
+      <NavItem/>
+      <div>
+        <NavBtn color="light">Log in</NavBtn>
+        <NavBtn color="orange"/>
+      </div>
+    </Navbar>
   </div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+<script>
+import NavLogo from '@/components/Navbar/NavLogo.vue';
+import NavItem from './components/Navbar/NavItem.vue';
+import NavBtn from './components/Navbar/NavBtn.vue';
+import Navbar from './components/Navbar/Navbar.vue';
+export default {
+    components: { NavLogo, NavItem, NavBtn, Navbar }
 }
+</script>
 
-nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+<style>
+  .orange{
+    background: #E44232;
+    color: #fff;
   }
-}
+  .light{
+    background: white;
+  }
+  .light:hover{
+    background: #F0F0F0;
+  }
 </style>
