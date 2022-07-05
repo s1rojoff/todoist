@@ -86,9 +86,6 @@ export default {
          justify-content: space-between;
          flex-direction: row;
         padding: 0 3rem;
-        &:hover{
-          border-bottom:1px solid grey ;
-        }
   }
   
 }
