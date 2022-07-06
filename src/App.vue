@@ -29,7 +29,7 @@ import FirstContent from '@/components/FirstSection/FirstContent.vue'
 import LogosIcons from '@/components/FirstSection/LogosIcons.vue'
 import SecondSection from './components/SecondSection/SecondSection.vue';
 import SecondText from './components/SecondSection/SecondText.vue';
-import SecondImg from './components/SecondSection/SecondImg.vue';
+import SecondImg from './components/SecondSection/SecondImg.vue'
 import Footer from '@/components/Footer';
 export default {
     components: {
