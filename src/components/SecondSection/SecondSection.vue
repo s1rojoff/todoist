@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="row">
     <slot></slot>
   </div>
 </template>
@@ -10,6 +10,11 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+  .row{
+    display: flex;
+    align-items: center;
+    /* margin-top: 100px; */
+    margin: 100px auto;
+  }
 </style>

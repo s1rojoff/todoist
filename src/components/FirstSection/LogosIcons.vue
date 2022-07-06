@@ -40,7 +40,7 @@ svg{
 .row{
   display: flex;
   align-items: center;
-  margin-top: -210px;
+  margin-top: -180px;
 
 }
 .col-left{

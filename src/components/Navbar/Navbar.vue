@@ -10,11 +10,11 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
     nav{
         display: flex;
         align-items: center;
-        padding: 0 120px;
+        padding: 10px 120px;
         justify-content: space-between;
     }
 </style>

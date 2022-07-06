@@ -2,12 +2,12 @@
   <div class="col-6">
     <p class="first">GET MORE DONE</p>
     <p class="second">
-        Add your tasks. <br>
-        Organize your life. <br>
+        Add your tasks.
+        Organize your life.
         Achieve more every day.
     </p>
     <p class="third">
-        Add tasks like “Read work emails every day at 10am” to <br> fill your to-do list in seconds using Todoist's powerful <br> natural language recognition and recurring dates.
+        Add tasks like “Read work emails every day at 10am” to  fill your to-do list in seconds using Todoist's powerful natural language recognition and recurring dates.
     </p>
   </div>
 </template>
@@ -20,21 +20,20 @@ export default {
 
 <style scoped>
 *{
-    font-family: 'Poppins' sans-serif;
+    font-family: "Poppins" ,sans-serif;
+    line-height: 1.2;
 }
     .col-6{
-        width: 40%;
+        width: 100%;
+        padding: 0  180px;
+
     }
     .first{
+        margin-left: 10px;
         font-size: 13px;
-        margin-top: 10px;
     }
     .second{
-        font-size: 35px;
+        font-size: 34px;
         font-weight: 700;
-        margin-top: -10px;
-    }
-    .third{
-        margin-top: -20px;
     }
 </style>

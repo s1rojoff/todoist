@@ -64,7 +64,7 @@ export default {
   components: { VImage, NavBtn, FoText, FlexWrap, FooterLogo, FooterIcons, FoLink },
 };
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .footer {
   background-color: #fff9f3;
 
