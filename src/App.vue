@@ -15,7 +15,7 @@
       <SecondText/>
       <SecondImg/>
     </SecondSection>
-    <HelloWorld/>
+    <Footer />
   </div>
 </template>
 
@@ -30,8 +30,7 @@ import LogosIcons from '@/components/FirstSection/LogosIcons.vue'
 import SecondSection from './components/SecondSection/SecondSection.vue';
 import SecondText from './components/SecondSection/SecondText.vue';
 import SecondImg from './components/SecondSection/SecondImg.vue'
-import HelloWorld from './components/HelloWorld.vue'
-
+import Footer from '@/components/Footer';
 export default {
     components: {
     NavLogo,
@@ -44,7 +43,7 @@ export default {
     SecondSection,
     SecondText,
     SecondImg,
-    HelloWorld
+    Footer
 }
 }
 </script>
@@ -61,4 +60,3 @@ export default {
     background: #F0F0F0;
   }
 </style>
->>>>>>> 0d23b495e802cee27fdeec04b7236af4c6366fde
