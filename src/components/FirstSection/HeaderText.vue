@@ -32,9 +32,10 @@ export default {
     font-weight: 600;
 }
 &_sm{
-    margin-top: -35px;
+    // margin-top: -35px;
     font-size: 20px;
     font-weight: 300;
+    margin-bottom: 20px;
 }
 }
 </style>

@@ -15,7 +15,11 @@
       <SecondText/>
       <SecondImg/>
     </SecondSection>
-    <Footer />
+    <SecondSection>
+      <SecondImg/>
+      <SecondText/>
+    </SecondSection>
+    <Footer></Footer>
   </div>
 </template>
 
