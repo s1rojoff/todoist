@@ -1,30 +1,4 @@
 <template>
-<<<<<<< HEAD
-  
-   
-    
-
-     
-
-      
-
-    <v-main>
-      <router-view/>
-    </v-main>
-  
-</template>
-
-<script>
-
-export default {
-  name: 'App',
-
-  data: () => ({
-    //
-  }),
-};
-</script>
-=======
   <div id="app">
     <Navbar>
       <NavLogo/>
@@ -41,6 +15,7 @@ export default {
       <SecondText/>
       <SecondImg/>
     </SecondSection>
+    <HelloWorld/>
   </div>
 </template>
 
@@ -55,6 +30,8 @@ import LogosIcons from '@/components/FirstSection/LogosIcons.vue'
 import SecondSection from './components/SecondSection/SecondSection.vue';
 import SecondText from './components/SecondSection/SecondText.vue';
 import SecondImg from './components/SecondSection/SecondImg.vue'
+import HelloWorld from './components/HelloWorld.vue'
+
 export default {
     components: {
     NavLogo,
@@ -66,7 +43,8 @@ export default {
     LogosIcons,
     SecondSection,
     SecondText,
-    SecondImg
+    SecondImg,
+    HelloWorld
 }
 }
 </script>
